@@ -1,0 +1,8 @@
+---
+applications:
+  - name: eva-mattermost
+    buildpacks:
+      - https://github.com/cloudfoundry/go-buildpack.git
+    env:
+      GOPACKAGENAME: main
+      URL: 'YOUR_MATTERMOST_URL'
